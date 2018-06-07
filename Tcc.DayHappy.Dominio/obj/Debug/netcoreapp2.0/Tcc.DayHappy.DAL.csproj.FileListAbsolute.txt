@@ -1,0 +1,12 @@
+C:\Users\3binfo\Downloads\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.csproj.CoreCompileInputs.cache
+C:\Users\3binfo\Downloads\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfoInputs.cache
+C:\Users\3binfo\Downloads\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfo.cs
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.deps.json
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.dll
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.pdb
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.csprojAssemblyReference.cache
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.csproj.CoreCompileInputs.cache
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfoInputs.cache
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfo.cs
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.dll
+C:\Users\3binfo\Desktop\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.pdb

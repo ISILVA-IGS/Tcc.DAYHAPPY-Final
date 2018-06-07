@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Tcc.DayHappy.Dominio.Usuario;
 
-namespace Tcc.DayHappy.Dominio.Storer
+namespace Tcc.DayHappy.DAL
 {
     /*
     public class FuncionarioArmazenar 

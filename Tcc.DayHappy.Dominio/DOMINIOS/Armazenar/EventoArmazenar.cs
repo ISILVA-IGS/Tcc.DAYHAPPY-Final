@@ -20,9 +20,8 @@ namespace Tcc.DayHappy.DAL
             _pessoaFisicaRepository = pessoaFisicaRepository;
             _pessoaJuridicaRepository = pessoaJuridicaRepository;
         }
-        public void  Armazenar(int id,string cep, string logradouro, string numero, string bairro, string cidade, string referencia
-            , string contato1, string contato2, string email, DateTime dataEvento, DateTime horarioInicio, DateTime horarioTermino, string tipoEvento
-            , Decimal valorFrete, Decimal valorTotalServ, Decimal valorTotalProd, DateTime dataValidadeOrc, string statusOrc,PessoaFisica pessoaFisica, PessoaJuridica pessoaJuridica)
+        public void  Armazenar(int id, DateTime dataEvento, DateTime horarioInicio, DateTime horarioTermino, string tipoEvento
+            , decimal valorFrete, decimal valorTotalServ, decimal valorTotalProd, DateTime dataValidadeOrc, string statusOrc, PessoaFisica pessoaFisica, PessoaJuridica pessoaJuridica, string obsEvento)
         {
              
 
@@ -30,15 +29,15 @@ namespace Tcc.DayHappy.DAL
 
             if(evento == null)
             {
-                evento = new Evento(cep, logradouro, numero, bairro, cidade, referencia, contato1, contato2, email, 
-                    dataEvento, horarioInicio, horarioTermino, tipoEvento, valorFrete, valorTotalServ, valorTotalProd, dataValidadeOrc, statusOrc,pessoaFisica, pessoaJuridica);
+                evento = new Evento(dataEvento, horarioInicio, horarioTermino, tipoEvento
+            , valorFrete, valorTotalServ, valorTotalProd, dataValidadeOrc, statusOrc, pessoaFisica, pessoaJuridica, obsEvento);
               //  _orcamentoRepository.Save(orcamento);
 
             }
             else
             {
-                evento.Update(cep, logradouro, numero, bairro, cidade, referencia, contato1, contato2, email,
-                    dataEvento, horarioInicio, horarioTermino, tipoEvento, valorFrete, valorTotalServ, valorTotalProd, dataValidadeOrc, statusOrc, pessoaFisica,pessoaJuridica);
+                evento.Update(dataEvento, horarioInicio, horarioTermino,  tipoEvento
+            ,  valorFrete,  valorTotalServ,  valorTotalProd, dataValidadeOrc, statusOrc, pessoaFisica, pessoaJuridica,obsEvento);
             }
         }
 

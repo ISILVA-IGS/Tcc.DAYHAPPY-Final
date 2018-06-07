@@ -15,30 +15,31 @@ namespace Tcc.DayHappy.Dominio.Armazenar
             _produtoRepository = produtoRepository;
         }
     
-
-        public void Armazenar(int id , string nomeProduto, string faixaEtaria, string descricao, DateTime dataCompra,
-            decimal valorLocacao, decimal valorCusto, string checkListPecas)
+        public void Armazenar(int id , string nomeProduto, string faixaEtaria, string descricao,
+            decimal valorLocacao, decimal valorCusto)
         {
             var produto = _produtoRepository.GetById(id);
 
             if(produto == null)
             {
-                produto = new Produto(nomeProduto, faixaEtaria, descricao, dataCompra, valorLocacao, valorCusto, checkListPecas);
+                produto = new Produto(nomeProduto, faixaEtaria, descricao, valorLocacao, valorCusto);
                _produtoRepository.Create(produto);
             }
             else
             {
-                produto.Update(nomeProduto, faixaEtaria, descricao, dataCompra, valorLocacao, valorCusto, checkListPecas);
+                produto.Update(nomeProduto, faixaEtaria, descricao, valorLocacao, valorCusto);
             }
         }
 
-        public void Deletar(int id, string nomeProduto, string faixaEtaria, string descricao, DateTime dataCompra,
-            decimal valorLocacao, decimal valorCusto, string checkListPecas)
+        public void Deletar(int id, string nomeProduto, string faixaEtaria, string descricao,
+            decimal valorLocacao, decimal valorCusto)
         {
             var produto = _produtoRepository.GetById(id);
-             _produtoRepository.Delete(produto);
-            
-               
+
+            if (produto.COD_PROD == id)
+            {
+                _produtoRepository.Delete(produto);
+            }
 
         }
     }

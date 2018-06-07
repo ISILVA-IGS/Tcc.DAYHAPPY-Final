@@ -27,7 +27,7 @@ namespace Tcc.DayHappy.DAL
             }
             else
             {
-                itinerario.Update(modeloCarro, numCarro, horarioSaida, evento);
+                itinerario.Update(modeloCarro, horarioSaida, evento, funcionario);
             }
         }
     }

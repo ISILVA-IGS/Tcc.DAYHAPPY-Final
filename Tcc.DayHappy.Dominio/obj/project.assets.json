@@ -3424,11 +3424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\3binfo\\Downloads\\Tcc.DayHappy\\Tcc.DayHappy.Dominio\\Tcc.DayHappy.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\3binfo\\Desktop\\Tcc.DayHappy\\Tcc.DayHappy.Dominio\\Tcc.DayHappy.DAL.csproj",
       "projectName": "Tcc.DayHappy.DAL",
-      "projectPath": "C:\\Users\\3binfo\\Downloads\\Tcc.DayHappy\\Tcc.DayHappy.Dominio\\Tcc.DayHappy.DAL.csproj",
+      "projectPath": "C:\\Users\\3binfo\\Desktop\\Tcc.DayHappy\\Tcc.DayHappy.Dominio\\Tcc.DayHappy.DAL.csproj",
       "packagesPath": "C:\\Users\\3binfo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\3binfo\\Downloads\\Tcc.DayHappy\\Tcc.DayHappy.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\3binfo\\Desktop\\Tcc.DayHappy\\Tcc.DayHappy.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

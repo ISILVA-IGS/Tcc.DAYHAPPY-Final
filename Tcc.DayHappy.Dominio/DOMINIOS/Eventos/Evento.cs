@@ -23,8 +23,8 @@ namespace Tcc.DayHappy.Dominio.Eventos
 
         protected Evento() { }
 
-        public Evento( DateTime dataEvento, DateTime horarioInicio, DateTime horarioTermino, string tipoEvento
-            , Decimal valorFrete, Decimal valorTotalServ, Decimal valorTotalProd, DateTime dataValidadeOrc, string statusOrc, PessoaFisica pessoaFisica, PessoaJuridica pessoaJuridica,string obsEvento)
+        public Evento(DateTime dataEvento, DateTime horarioInicio, DateTime horarioTermino, string tipoEvento
+            , decimal valorFrete, decimal valorTotalServ, decimal valorTotalProd, DateTime dataValidadeOrc, string statusOrc, PessoaFisica pessoaFisica, PessoaJuridica pessoaJuridica, string obsEvento)
         {
             ValidacaoValoresSetPropriedades( dataEvento, horarioInicio, horarioTermino, tipoEvento
            , valorFrete, valorTotalServ, valorTotalProd, dataValidadeOrc, statusOrc,pessoaFisica, pessoaJuridica,obsEvento);
@@ -54,7 +54,7 @@ namespace Tcc.DayHappy.Dominio.Eventos
         }
 
         public void Update( DateTime dataEvento, DateTime horarioInicio, DateTime horarioTermino, string tipoEvento
-            , Decimal valorFrete, Decimal valorTotalServ, Decimal valorTotalProd, DateTime dataValidadeOrc, string statusOrc,PessoaFisica pessoaFisica,PessoaJuridica pessoaJuridica,string obsEvento)
+            , decimal valorFrete, decimal valorTotalServ, decimal valorTotalProd, DateTime dataValidadeOrc, string statusOrc,PessoaFisica pessoaFisica,PessoaJuridica pessoaJuridica,string obsEvento)
         {
             ValidacaoValoresSetPropriedades( dataEvento, horarioInicio, horarioTermino,  tipoEvento
             ,  valorFrete,  valorTotalServ,  valorTotalProd, dataValidadeOrc, statusOrc, pessoaFisica, pessoaJuridica,obsEvento);

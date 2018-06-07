@@ -1,3 +1,0 @@
-C:\Users\3binfo\Downloads\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.csproj.CoreCompileInputs.cache
-C:\Users\3binfo\Downloads\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfoInputs.cache
-C:\Users\3binfo\Downloads\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.AssemblyInfo.cs

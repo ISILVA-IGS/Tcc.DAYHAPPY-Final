@@ -9,8 +9,9 @@ using Tcc.DayHappy.Dominio.Produtos;
 using Dapper;
 using System.Data;
 using Tcc.DayHappy.DAL;
+using Tcc.DayHappy.Data;
 
-namespace Tcc.DayHappy.Data.Repositorios
+namespace Tcc.DayHappy.DAL
 {
    public  class ProdutoRepository :  IRepository<Produto>
     {

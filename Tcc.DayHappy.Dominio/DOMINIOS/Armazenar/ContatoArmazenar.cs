@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using Tcc.DayHappy.DAL;
+using Tcc.DayHappy.Dominio;
 
-namespace Tcc.DayHappy.Dominio.Armazenar
+namespace Tcc.DayHappy.DAL
+
 {
      public class ContatoArmazenar
     {

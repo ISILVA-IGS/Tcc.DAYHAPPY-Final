@@ -23,7 +23,7 @@ namespace Tcc.DayHappy.Dominio.Produtos
 
         //Lembrar de rever todos os tratamentos--> data compra
         //(ATENÇÃO) com check list de pecas é obrigatorio ???
-        private  void ValidacaoValoresSetPropriedades(string nomeProduto, string faixaEtaria, string descricao, 
+        private void ValidacaoValoresSetPropriedades(string nomeProduto, string faixaEtaria, string descricao, 
             decimal valorLocacao, decimal valorCusto)
         {
             DomainException.Quando(string.IsNullOrEmpty(nomeProduto), "Nome do Produto é obrigatorio");
@@ -38,7 +38,6 @@ namespace Tcc.DayHappy.Dominio.Produtos
             DESCRICAO_PROD = descricao;
             VALOR_LOCACAO_PROD = valorLocacao;
             VALOR_CUSTO_PROD = valorCusto;
-
 
         }
 
