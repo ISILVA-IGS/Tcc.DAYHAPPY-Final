@@ -1,0 +1,4 @@
+G:\Rodrigo C#\DayHappy\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.Dominio.csprojAssemblyReference.cache
+G:\Rodrigo C#\DayHappy\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.Dominio.csproj.CoreCompileInputs.cache
+G:\Rodrigo C#\DayHappy\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.Dominio.AssemblyInfoInputs.cache
+G:\Rodrigo C#\DayHappy\Tcc.DayHappy\Tcc.DayHappy.Dominio\obj\Debug\netcoreapp2.0\Tcc.DayHappy.Dominio.AssemblyInfo.cs
